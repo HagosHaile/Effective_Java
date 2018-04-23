@@ -12,7 +12,12 @@ public class Stack {
 
 	public static void main(String[] args) {
 		
-
+		Stack stack = new Stack();
+		stack.push("one");
+		stack.push("two");
+		
+		System.out.println(stack.pop());
+		System.out.println(stack.getClass());
 	}
 
     public Stack() {
@@ -25,9 +30,18 @@ public class Stack {
     }
 
     public Object pop() {
-        if (size == 0)
+        /*this makes the code not to retain memory once an object is removed from stack. 
+         * if (size == 0)
             throw new EmptyStackException();
         return elements[--size];
+        
+        */
+    	//below is the code to eliminate reference once an object reference is popped up from stack
+    	 if (size == 0)
+    	        throw new EmptyStackException();
+    	    Object result = elements[--size];
+    	    elements[size] = null; // Eliminate obsolete reference
+    	    return result;
     }
 
     /**
