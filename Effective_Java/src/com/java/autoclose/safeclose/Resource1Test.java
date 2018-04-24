@@ -1,6 +1,6 @@
-package com.java.autoclose;
+package com.java.autoclose.safeclose;
 
-import com.java.autoclose.Resource1;
+import com.java.autoclose.safeclose.Resource1;
 
 public class Resource1Test {
 

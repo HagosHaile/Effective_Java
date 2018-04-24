@@ -1,4 +1,4 @@
-package com.java.autoclose;
+package com.java.autoclose.safeclose;
 
 public class Resource1 implements AutoCloseable {
 
