@@ -1,4 +1,4 @@
-package com.java.autoclose.notsafe;
+package com.java.autoclose.nonsafeclose;
 
 
 public class Resource2Test {
