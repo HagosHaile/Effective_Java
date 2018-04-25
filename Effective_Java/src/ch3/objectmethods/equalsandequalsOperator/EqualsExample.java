@@ -1,4 +1,4 @@
-package ch3.objectmethods.equals;
+package ch3.objectmethods.equalsandequalsOperator;
 
 public class EqualsExample {
 	
