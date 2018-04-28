@@ -1,7 +1,7 @@
 package ch12.serialization.demo;
 
 public class Employee implements java.io.Serializable {
-	private static final long serialversionUID = 129348938L;
+	private static final long serialVersionUID = -3130583927284351054L;
 	public String name;
 	public String address;
 	public transient int SSN;

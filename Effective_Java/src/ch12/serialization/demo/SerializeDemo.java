@@ -8,14 +8,13 @@ public class SerializeDemo {
 
 	   public static void main(String [] args) {
 	      Employee e = new Employee();
-	      e.name = "Reyan Ali";
-	      e.address = "Phokka Kuan, Ambehta Peer";
+	      e.name = "Belay Ali";
+	      e.address = "central ave";
 	      e.SSN = 11122333;
 	      e.number = 101;
 	      
 	      try {
-	         FileOutputStream fileOut =
-	         new FileOutputStream("C:/Users/HAGOS/Desktop/java/employee.ser");
+	         FileOutputStream fileOut = new FileOutputStream("C:/Users/HAGOS/git/Effective_Java/Effective_Java/src/ch12/serialization/demo/employee.ser");
 	         ObjectOutputStream out = new ObjectOutputStream(fileOut);
 	         out.writeObject(e);
 	         out.close();
