@@ -19,7 +19,8 @@ public class SerializeDemo {
 	         out.writeObject(e);
 	         out.close();
 	         fileOut.close();
-	         System.out.printf("Serialized data is saved in C:/Users/HAGOS/Desktop/java/employee.ser");
+	         System.out.printf("Serialized data is saved in "
+	         		+ "C:/Users/HAGOS/git/Effective_Java/Effective_Java/src/ch12/serialization/demo/employee.ser");
 	      } catch (IOException i) {
 	         i.printStackTrace();
 	      }

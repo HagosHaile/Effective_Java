@@ -24,12 +24,12 @@ public class DeserializeDemo {
 	      }
 	      
 	     /* ***************************************************************************************************************
-	      * when the employee.ser is deserialized all the return the same value as before serialized except SSN.          *
-	      * this is because it is transiet                                                                                *
+	      * when the employee.ser is deserialized all return the same value as before serialized except SSN.          *
+	      * this is because it is transient                                                                                *
 	      *	  ===========output====================                                                                       *
 	      *	  Deserialized Employee...                                                                                    *
-	      *	  Name: Reyan Ali                                                                                             *
-	      *	  Address: Phokka Kuan, Ambehta Peer                                                                          *
+	      *	  Name: Belay ali                                                                                             *
+	      *	  Address: central ave                                                                         *
 	      *	  SSN: 0                                                                                                      *
 	      *	  Number: 101                                                                                                 *
 	      *****************************************************************************************************************/
